@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Gpu Z . . ."
 # download gpuz
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Gpu%20Z.zip" -File "$env:TEMP\Gpu Z.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Gpu%20Z.zip" -File "$env:TEMP\Gpu Z.zip"
 # extract files
 Expand-Archive "$env:TEMP\Gpu Z.zip" -DestinationPath "$env:TEMP\Gpu Z" -ErrorAction SilentlyContinue
 # start gpuz

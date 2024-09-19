@@ -70,7 +70,7 @@ Get-FileFromWeb -URL $url -File "$env:TEMP\NvidiaDriver.exe"
 Clear-Host
 Write-Host "Installing: Nvidia Driver . . ."
 # download 7zip
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/7-Zip.exe" -File "$env:TEMP\7-Zip.exe"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/7-Zip.exe" -File "$env:TEMP\7-Zip.exe"
 # install 7zip
 Start-Process -wait "$env:TEMP\7-Zip.exe" /S
 # extract files with 7zip
@@ -85,7 +85,7 @@ exit
 Clear-Host
 Write-Host "Installing: NvCleanInstall . . ."
 # download nvcleaninstall
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/NV%20Clean%20Install.exe" -File "$env:TEMP\NV Clean Install.exe"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/NV%20Clean%20Install.exe" -File "$env:TEMP\NV Clean Install.exe"
 # start nvcleaninstall
 Start-Process "$env:TEMP\NV Clean Install.exe"
 exit

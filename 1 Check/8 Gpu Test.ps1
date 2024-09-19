@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Furk Mark . . ."
 # download furkmark
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Furk%20Mark.zip" -File "$env:TEMP\Furk Mark.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Furk%20Mark.zip" -File "$env:TEMP\Furk Mark.zip"
 # extract files
 Expand-Archive "$env:TEMP\Furk Mark.zip" -DestinationPath "$env:TEMP\Furk Mark" -ErrorAction SilentlyContinue
 # start furkmark

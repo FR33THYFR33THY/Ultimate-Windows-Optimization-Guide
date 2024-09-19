@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Mouse Movement Recorder . . ."
 # download mouse movement recorder
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Mouse%20Movement%20Recorder.exe" -File "$env:TEMP\Mouse Movement Recorder.exe"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Mouse%20Movement%20Recorder.exe" -File "$env:TEMP\Mouse Movement Recorder.exe"
 # open mouse movement recorder
 Start-Process "$env:TEMP\Mouse Movement Recorder.exe"
 Clear-Host

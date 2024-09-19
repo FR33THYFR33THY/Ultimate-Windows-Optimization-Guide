@@ -43,7 +43,7 @@
 
 Write-Host "Installing: TM5 . . ."
 # download tm5
-$result = Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/TM5.zip" -File "$env:TEMP\TM5.zip"
+$result = Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/TM5.zip" -File "$env:TEMP\TM5.zip"
 # extract files
 Expand-Archive "$env:TEMP\TM5.zip" -DestinationPath "$env:TEMP\TM5" -ErrorAction SilentlyContinue
 # create config for tm5

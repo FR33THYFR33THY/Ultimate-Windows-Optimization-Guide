@@ -86,7 +86,7 @@ exit
 Clear-Host
 Write-Host "Installing: 7Zip . . ."
 # download 7zip
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/7-Zip.exe" -File "$env:TEMP\7-Zip.exe"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/7-Zip.exe" -File "$env:TEMP\7-Zip.exe"
 # install 7zip
 Start-Process -wait "$env:TEMP\7-Zip.exe" -ArgumentList "/S"
 show-menu
@@ -192,7 +192,7 @@ show-menu
 Clear-Host
 Write-Host "Installing: Notepad ++ . . ."
 # download notepad ++
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Notepad%20++.exe" -File "$env:TEMP\Notepad ++.exe"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Notepad%20++.exe" -File "$env:TEMP\Notepad ++.exe"
 # install notepad ++
 Start-Process -wait "$env:TEMP\Notepad ++.exe" -ArgumentList "/S"
 show-menu

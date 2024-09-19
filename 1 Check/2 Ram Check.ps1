@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Cpu Z . . ."
 # download cpuz
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Cpu%20Z.zip" -File "$env:TEMP\Cpu Z.zip" 
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Cpu%20Z.zip" -File "$env:TEMP\Cpu Z.zip" 
 # extract files
 Expand-Archive "$env:TEMP\Cpu Z.zip" -DestinationPath "$env:TEMP\Cpu Z" -ErrorAction SilentlyContinue
 # start cpuz

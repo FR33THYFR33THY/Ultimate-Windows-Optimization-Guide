@@ -52,7 +52,7 @@
 Clear-Host
 Write-Host "Installing: NvidiaProfileInspector . . ."
 # download inspector
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
 # extract files
 Expand-Archive "$env:TEMP\Inspector.zip" -DestinationPath "$env:TEMP\Inspector" -ErrorAction SilentlyContinue
 # create config for inspector
@@ -266,7 +266,7 @@ exit
 Clear-Host
 Write-Host "Installing: NvidiaProfileInspector . . ."
 # download inspector
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Inspector.zip" -File "$env:TEMP\Inspector.zip"
 # extract files
 Expand-Archive "$env:TEMP\Inspector.zip" -DestinationPath "$env:TEMP\Inspector" -ErrorAction SilentlyContinue
 # create config for inspector

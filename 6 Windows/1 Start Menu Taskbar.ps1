@@ -136,7 +136,7 @@ Regedit.exe /S "Taskbar Clean.reg"
 # CLEAN START MENU W11
 $progresspreference = 'silentlycontinue'
 Remove-Item -Recurse -Force "$env:USERPROFILE\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState\start2.bin" -ErrorAction SilentlyContinue
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/start2.bin" -File "$env:USERPROFILE\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState\start2.bin"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/start2.bin" -File "$env:USERPROFILE\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\LocalState\start2.bin"
 # CLEAN START MENU W10
 # delete startmenulayout.xml
 Remove-Item -Recurse -Force "$env:SystemDrive\Windows\StartMenuLayout.xml" -ErrorAction SilentlyContinue | Out-Null

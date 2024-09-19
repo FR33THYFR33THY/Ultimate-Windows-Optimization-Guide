@@ -75,7 +75,7 @@ Clear-Host
 Write-Host "If not using Option 1, disable Secure Boot in BIOS and delete Secure Boot keys . . ."
 $null = $Host.UI.RawUI.ReadKey("NoEcho,IncludeKeyDown")
 Clear-Host
-Start-Process "https://github.com/fr33thytweaks/files/raw/main/hidusbf.zip"
+Start-Process "https://github.com/FR33THYFR33THY/files/raw/main/hidusbf.zip"
 exit
 
       }

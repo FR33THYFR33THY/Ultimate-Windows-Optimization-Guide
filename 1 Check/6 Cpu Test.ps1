@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Prime95 . . ."
 # download prime95
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Prime%2095.zip" -File "$env:TEMP\Prime 95.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Prime%2095.zip" -File "$env:TEMP\Prime 95.zip"
 # extract files
 Expand-Archive "$env:TEMP\Prime 95.zip" -DestinationPath "$env:TEMP\Prime 95" -ErrorAction SilentlyContinue
 # start prime95

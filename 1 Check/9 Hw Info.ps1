@@ -43,7 +43,7 @@
 
 Write-Host "Installing: Hw Info . . ."
 # download hwinfo
-Get-FileFromWeb -URL "https://github.com/fr33thytweaks/files/raw/main/Hw%20Info.zip" -File "$env:TEMP\Hw Info.zip"
+Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/main/Hw%20Info.zip" -File "$env:TEMP\Hw Info.zip"
 # extract files
 Expand-Archive "$env:TEMP\Hw Info.zip" -DestinationPath "$env:TEMP\Hw Info" -ErrorAction SilentlyContinue
 # start hwinfo
