@@ -25,12 +25,6 @@ The definitive Windows optimization guide for power users seeking to enhance the
 ## Updates
 This guide is continuously updated with improvements and bug fixes. <br> Make sure to always download the latest version from GitHub.
 
-## Future Plans
-- Refine the code
-- Fix reported bugs with feedback
-- Swap script downloads to GitHub
-- Port everything to a console UI script
-
 ## Guide
 [Video](<https://youtu.be/PlACZ9Gp1xo>)
 
