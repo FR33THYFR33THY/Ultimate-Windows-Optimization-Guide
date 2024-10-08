@@ -69,11 +69,9 @@ exit
 Clear-Host
 $progresspreference = 'silentlycontinue'
 Write-Host "Uninstalling: UWP Apps. Please wait . . ."
-# uninstall all uwp apps keep nvidia
-Get-AppXPackage -allusers | Where-Object {$_.name -notlike '*NVIDIA*'} | Remove-AppxPackage -ErrorAction SilentlyContinue
-Timeout /T 2 | Out-Null
-# install cbs needed for w11 explorer
-Get-AppXPackage -AllUsers *Microsoft.WindowsAppRuntime.CBS* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register -ErrorAction SilentlyContinue "$($_.InstallLocation)\AppXManifest.xml"}
+# uninstall all uwp apps keep nvidia & cbs
+# cbs needed for w11 explorer
+Get-AppXPackage -AllUsers | Where-Object { $_.Name -notlike '*NVIDIA*' -and $_.Name -notlike '*CBS*' } | Remove-AppxPackage -ErrorAction SilentlyContinue
 Timeout /T 2 | Out-Null
 # install hevc video extension needed for amd recording
 Get-AppXPackage -AllUsers *Microsoft.HEVCVideoExtension* | Foreach {Add-AppxPackage -DisableDevelopmentMode -Register -ErrorAction SilentlyContinue "$($_.InstallLocation)\AppXManifest.xml"}
