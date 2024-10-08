@@ -165,6 +165,7 @@ Remove-WindowsCapability -Online -Name "OneCoreUAP.OneSync~~~~0.0.1.0" | Out-Nul
 Remove-WindowsCapability -Online -Name "OpenSSH.Client~~~~0.0.1.0" | Out-Null
 Remove-WindowsCapability -Online -Name "Print.Fax.Scan~~~~0.0.1.0" | Out-Null
 Remove-WindowsCapability -Online -Name "Print.Management.Console~~~~0.0.1.0" | Out-Null
+Remove-WindowsCapability -Online -Name "VBSCRIPT~~~~" | Out-Null
 Remove-WindowsCapability -Online -Name "WMIC~~~~" | Out-Null
 # breaks uwp snippingtool w10
 # Remove-WindowsCapability -Online -Name "Windows.Client.ShellComponents~~~~0.0.1.0" | Out-Null
