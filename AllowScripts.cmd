@@ -17,6 +17,7 @@
     cls
     echo 1. Scripts: On (Recommended)
     echo 2. Scripts: Off
+    echo.
     set /p choice=:
     if "%choice%"=="1" goto A
     if "%choice%"=="2" goto B
