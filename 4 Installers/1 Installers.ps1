@@ -82,7 +82,7 @@
         Write-Host "21. Spotify"
         Write-Host "22. Steam"
         Write-Host "23. Ubisoft Connect"
-        Write-Host "24. Valorant"
+        Write-Host "24. Valorant`n"
 	                  }
 	    show-menu
         while ($true) {
