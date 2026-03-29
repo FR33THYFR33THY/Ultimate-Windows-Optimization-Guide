@@ -50,7 +50,7 @@
         }
         }
 
-Write-Host "Downloading: Direct X..."
+Write-Host "Downloading: DirectX..."
 
 # download 7zip
 Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/refs/heads/main/7%20Zip.exe" -File "$env:SystemRoot\Temp\7 Zip.exe"
@@ -66,11 +66,11 @@ cmd /c "reg add `"HKEY_CURRENT_USER\Software\7-Zip\Options`" /v `"CascadedMenu`"
 Move-Item -Path "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip\7-Zip File Manager.lnk" -Destination "$env:ProgramData\Microsoft\Windows\Start Menu\Programs" -Force -ErrorAction SilentlyContinue | Out-Null
 Remove-Item "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\7-Zip" -Recurse -Force -ErrorAction SilentlyContinue | Out-Null
 
-# download direct x
+# download directx
 Get-FileFromWeb -URL "https://github.com/FR33THYFR33THY/files/raw/refs/heads/main/Direct%20X.exe" -File "$env:SystemRoot\Temp\DirectX.exe"
 
 # extract directx with 7zip
 & "$env:SystemDrive\Program Files\7-Zip\7z.exe" x "$env:SystemRoot\Temp\DirectX.exe" -o"$env:SystemRoot\Temp\DirectX" -y | Out-Null
 
-# install direct x
+# install directx
 Start-Process "$env:SystemRoot\Temp\DirectX\DXSETUP.exe"
